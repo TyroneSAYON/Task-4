@@ -1,0 +1,125 @@
+body{
+    background-color: #41436A;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffff;
+    font-size: 25px;
+    flex-wrap: wrap;
+}
+
+.upperpart {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.upperpart2 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 14px;
+}
+
+.Chapter_Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.c-title{
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #FFFF ;
+    padding-left: 20px;
+}
+
+.c-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.c-container button {
+    width: 50px;
+    height:30px;
+    text-align: center;
+    margin: 5px;
+    background-color: #FFFF;
+    color: #052659;
+    border: 1px solid #ffff;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    border-radius: 7px;
+}
+
+.c-container button:hover {
+    background-color: #648;
+    color:#ffff;
+}
+
+.verse-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: inherit;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    padding: 10px; 
+    overflow-y: auto;
+}
+
+.verse-container p {
+    height: 7%;
+    width: 300px;
+    
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    text-align: center;
+    font-family:monospace;
+    color: #ffff;
+    background-color: #648;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+
+.search-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    width: 1000px;
+    margin-top: 20px;
+    border: 1px solid #ffff;
+    color: #2D3250;
+}
+
+
+@media (max-width: 800px) {
+    .c-container, .verses {
+      width: 100%; /* Set the width to 100% for smaller screens */
+    }
+}
